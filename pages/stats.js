@@ -57,7 +57,7 @@ export default function StatsPage({ stats }) {
         }}
         style={{
           zIndex: isHovered ? 2 : 1,
-          transform: animatedProps.xys.interpolate(
+          transform: animatedProps.xys.to(
             (x, y, s) =>
               `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
           ),

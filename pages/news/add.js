@@ -12,7 +12,6 @@ import styles from '../../styles/Add.module.css'
 
 
 export default function Somepage() {
-  const queryClient = useQueryClient();
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
   const [body, setBody] = useState('')

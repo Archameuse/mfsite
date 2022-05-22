@@ -46,7 +46,7 @@ return(
             <p className={styles.p2}>Помимо основного режима 5х5 в карте так же присутствуют особые режимы, -OS убирающий из игры вратарей и форвардов, -OF режим который наоборот ограничивает выбор персонажей до вратаря и форвардов и многие другие о которых вы можете узнать в нашем сообществе</p>
             <h1 className={styles.h3}>Присоединяйтесь к нам</h1>
             <p className={styles.p3}>Следите за картой, участвуйте в её развитии и различных турнирах и событиях посвящённых ней в <a href="https://www.discord.gg/HrCrcVV">Discord,</a> <a href="https://vk.com/magicfootball">VK</a> и <a href="https://iccup.com/community/1008-magic_football.html">ICCup</a></p>
-            <img src="./vr.png" />
+            <img src="./vr.png" alt="goalkeepers"/>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundPosition: 'center', backgroundSize: 'cover' }}>
@@ -57,7 +57,7 @@ return(
             <p className={styles.p2}>Помимо основного режима 5х5 в карте так же присутствуют особые режимы, -OS убирающий из игры вратарей и форвардов, -OF режим который наоборот ограничивает выбор персонажей до вратаря и форвардов и многие другие о которых вы можете узнать в нашем сообществе</p>
             <h1 className={styles.h3}>Присоединяйтесь к нам</h1>
             <p className={styles.p3}>Следите за картой, участвуйте в её развитии и различных турнирах и событиях посвящённых ней в <a href="https://www.discord.gg/HrCrcVV">Discord,</a> <a href="https://vk.com/magicfootball">VK</a> и <a href="https://iccup.com/community/1008-magic_football.html">ICCup</a></p>
-            <img src="./sup.png" />
+            <img src="./sup.png" alt="supports"/>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ backgroundPosition: 'center', backgroundSize: 'cover' }}>
@@ -68,7 +68,7 @@ return(
             <p className={styles.p2}>Помимо основного режима 5х5 в карте так же присутствуют особые режимы, -OS убирающий из игры вратарей и форвардов, -OF режим который наоборот ограничивает выбор персонажей до вратаря и форвардов и многие другие о которых вы можете узнать в нашем сообществе</p>
             <h1 className={styles.h3}>Присоединяйтесь к нам</h1>
             <p className={styles.p3}>Следите за картой, участвуйте в её развитии и различных турнирах и событиях посвящённых ней в <a href="https://www.discord.gg/HrCrcVV">Discord,</a> <a href="https://vk.com/magicfootball">VK</a> и <a href="https://iccup.com/community/1008-magic_football.html">ICCup</a></p>
-            <img src="./fw.png" />
+            <img src="./fw.png" alt="forwards"/>
           </div>
         </SwiperSlide>
     </Swiper>
