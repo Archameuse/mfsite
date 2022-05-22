@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useQuery, useQueryClient } from "react-query";
+import { useQuery } from "react-query";
 import Layout from "../../components/layout";
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../../styles/Article.module.css'
@@ -7,8 +7,8 @@ import BBcode from 'bbcode'
 import JsxParser from 'react-jsx-parser'
 
 
-export default function article() {
-  const queryClient = useQueryClient();
+export default function Article() {
+
   const router = useRouter()
   const aid= router.query
   let { data: Article } = useQuery(

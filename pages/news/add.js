@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 import Layout from '../../components/layout'
 import axios from 'axios'
-import { useQuery, useMutation, useQueryClient } from 'react-query'
 import { Checkbox } from '@mui/material'
 import { FormGroup } from '@mui/material'
 import { FormControlLabel } from '@mui/material'
@@ -12,7 +11,7 @@ import { Button } from '@mui/material'
 import styles from '../../styles/Add.module.css'
 
 
-export default function somepage() {
+export default function Somepage() {
   const queryClient = useQueryClient();
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
