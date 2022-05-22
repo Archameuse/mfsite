@@ -105,7 +105,7 @@ export async function getStaticProps() {
   // const auth = await google.auth.getClient({ scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'] });
 
   const auth = new google.auth.GoogleAuth({
-    keyFile: process.env.DB_KEY,
+    credentials: JSON.parse(process.env.DB_KEY),
     scopes: "https://www.googleapis.com/auth/spreadsheets.readonly"
   })
 
