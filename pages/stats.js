@@ -1,24 +1,11 @@
-import React, {useRef, useState, Component} from 'react';
+import React, {useRef, useState } from 'react';
 import { useSpring, animated } from 'react-spring'
-import Head from 'next/head';
 import Layout from '../components/layout';
 import styles from '../styles/Stats.module.css';
-import dynamic from 'next/dynamic';
-import { useQuery } from 'react-query';
 import { google } from 'googleapis'
 
 
 export default function StatsPage({ stats }) {
-  console.log(stats)
-  // let { data: players } = useQuery(
-  //   ["players"],
-  //   async () =>
-  //     await fetch(
-  //       `./db/players.json`
-  //     ).then((result) => result.json())
-  //     .then(data => data.players)
-  // );
-
   function Card({ children }) {
   const ref = useRef();
     const [isHovered, setHovered] = useState(false);
@@ -118,7 +105,7 @@ export async function getStaticProps() {
   // const auth = await google.auth.getClient({ scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'] });
 
   const auth = new google.auth.GoogleAuth({
-    keyFile: "./key.json",
+    keyFile: process.env.DB_KEY,
     scopes: "https://www.googleapis.com/auth/spreadsheets.readonly"
   })
 
@@ -129,13 +116,12 @@ export async function getStaticProps() {
   const range = `User Stats!A1:T54`;
 
     const response = await sheets.spreadsheets.values.get({
-      spreadsheetId: "1llBDAq63LVTFk-kSZvDhrSCsPX0GvP2ZaAIUITfKO08",
+      spreadsheetId: process.env.DB_ID,
       range,
     });
 
     const stats = response.data.values;
     stats.shift()
-
     return { 
         props: {
             stats
