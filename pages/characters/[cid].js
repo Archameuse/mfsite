@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { useQuery } from "react-query";
+import { useQuery, useQueryClient } from "react-query";
 import Layout from "../../components/layout";
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../../styles/Character.module.css'
@@ -8,6 +8,7 @@ import { PieChart } from 'react-minimal-pie-chart';
 import { Tooltip } from "@mui/material";
 
 export default function character() {
+  const queryClient = useQueryClient();
   const router = useRouter()
   const { cid } = router.query
 
