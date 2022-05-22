@@ -84,7 +84,7 @@ return(
       var club = player[19]
       if (club === '-') {club = false}
       return(
-        <Card id={name}>
+        <Card key={name}>
           <div className={styles.container_season}>
             <h1 className={styles.season}>Season 12</h1>
           </div>

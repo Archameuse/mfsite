@@ -11,13 +11,19 @@ export default function Article() {
 
   const router = useRouter()
   const aid= router.query
-  let { data: Article } = useQuery(
+  let { status, error, data: Article } = useQuery(
     ["Article", aid],
     async () =>
       await fetch(
         `https://infrequent-maroon-prepared.glitch.me/news?_page=${aid.id}&_limit=1`
       ).then((result) => result.json()),
   );
+
+  if (status === 'loading') {
+    return <Layout><h1>Loading, if takes too long try refresh page</h1></Layout>
+  } else if (status === 'error') {
+    return <Layout><h1>Error : {error.message}</h1></Layout>
+  }
   return( 
     <Layout>
     <div className={styles.body}>
