@@ -1,0 +1,207 @@
+{
+    "players": [
+      {
+        "name": "dkmb",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": "GW"
+      },
+      {
+        "name": "Angellsong",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": "NGA"
+      },
+      {
+        "name": "Duskes",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "NGA"
+      },
+      {
+        "name": "X1BoXeR1X",
+        "wins": 0,
+        "loses": 0,
+        "role": "Вратарь",
+        "club": "GW"
+      },
+      {
+        "name": "Mike_kuns",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": "GW"
+      },
+      {
+        "name": "Slate",
+        "wins": 0,
+        "loses": 0,
+        "role": "Защитник",
+        "club": "NGA"
+      },
+      {
+        "name": "Best_Kpyt.",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "NGA"
+      },
+      {
+        "name": "Argent",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "NGA"
+      },
+      {
+        "name": "Miron",
+        "wins": 0,
+        "loses": 0,
+        "role": "Фашист",
+        "club": "GW"
+      },
+      {
+        "name": "Knight",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": "NGA"
+      },
+      {
+        "name": "adviceaa",
+        "wins": 0,
+        "loses": 0,
+        "role": "Вратарь",
+        "club": "NGA"
+      },
+      {
+        "name": "Alpharius",
+        "wins": 0,
+        "loses": 0,
+        "role": "Защитник",
+        "club": "NGA"
+      },
+      {
+        "name": "Disses",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "GW"
+      },
+      {
+        "name": "Liza",
+        "wins": 0,
+        "loses": 0,
+        "role": "Вратарь",
+        "club": "GW"
+      },
+      {
+        "name": "Therni",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": false
+      },
+      {
+        "name": "Everlone",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": false
+      },
+      {
+        "name": "1Egor1",
+        "wins": 0,
+        "loses": 0,
+        "role": "Защитник",
+        "club": "NGA"
+      },
+      {
+        "name": "Osenniy_list",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "GW"
+      },
+      {
+        "name": "De1ty",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "GW"
+      },
+      {
+        "name": "FindYourWay",
+        "wins": 0,
+        "loses": 0,
+        "role": "Developer",
+        "club": false
+      },
+      {
+        "name": "Ankly",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": false
+      },
+      {
+        "name": "Svinka__Peppa",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "NGA"
+      },
+      {
+        "name": "Chymas",
+        "wins": 0,
+        "loses": 0,
+        "role": "Наzzист",
+        "club": "GW"
+      },
+      {
+        "name": "xerisin",
+        "wins": 0,
+        "loses": 0,
+        "role": "Защитник",
+        "club": "NGA"
+      },
+      {
+        "name": "AgeAndDream",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": "NGA"
+      },
+      {
+        "name": "HUKTO",
+        "wins": 0,
+        "loses": 0,
+        "role": "Поддержка",
+        "club": "GW"
+      },
+      {
+        "name": "Locki",
+        "wins": 0,
+        "loses": 0,
+        "role": "Вратарь",
+        "club": "NGA"
+      },
+      {
+        "name": "Muhammad",
+        "wins": 0,
+        "loses": 0,
+        "role": "Форвард",
+        "club": "GW"
+      },
+      {
+        "name": "podzaebalo",
+        "wins": 0,
+        "loses": 0,
+        "role": "Бездарь",
+        "club": false
+      }
+    ]
+  }

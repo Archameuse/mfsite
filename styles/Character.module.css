@@ -1,0 +1,90 @@
+.body *{
+  margin: 0;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px 1px black;
+  margin: 0 30px;
+}
+
+.bigimagebox{
+  display: flex;
+  justify-content: center;
+}
+
+.namebar, .role, .abilities{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.role{
+  color:rgba(0, 0, 0, 0.712);
+}
+
+.difficultychart{
+  left: 40px;
+  width: 50px;
+  position: relative;
+  top: -5px;
+}
+
+.descr{
+  width: 65%;
+  padding-top: 20px;
+}
+
+.descr::first-letter{
+  text-transform: uppercase;
+}
+
+.abilities{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.abilities h1{
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.abilities h1::first-letter{
+  text-transform: capitalize;
+}
+
+.ability{
+  display: flex;
+  margin: 30px 0;
+}
+
+.imagebox{
+  position: relative;
+  transform: translateY(50%);
+  margin-right: 40px;
+}
+
+.imagebox img{
+  height: 80px;
+  position: relative;
+}
+
+.textbox h1{
+  padding-left: 10vw;
+}
+
+.textbox h3{
+  color: red;
+}
+
+.tooltip{
+  width: 40vw;
+  box-shadow: 0 0 3px 2px black;
+  position: relative;
+  left: -50%;
+}
+

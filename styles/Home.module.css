@@ -1,0 +1,117 @@
+.center{
+  display: block;
+  text-align: center;
+  height: 43vw;
+}
+
+.center img{
+  width: 70%;
+  position: relative;
+  top: -32vw;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.9;
+}
+
+.center video{
+  display: inline-block;
+  margin: auto;
+  background-color: black;
+  width: 80vw;
+  box-shadow: 0px 0px 5px 2px black;
+  filter: blur(3px);
+}
+
+.center::before{
+  content: "";
+	position: absolute;
+	width: 80vw;
+  left: 50%;
+  top: 25%;
+  background-size: contain;
+  aspect-ratio: 16/5;
+  transform: translateX(-50%);
+  background-image: url(../public/mflogobig.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+  filter: opacity(0.9);
+}
+
+.center:hover > .video{
+  animation-name: hovercenter2;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.center:hover:before{
+  animation-name: hovercenter1;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes hovercenter2 {
+  to {filter:blur(1px);}
+}
+
+@keyframes hovercenter1 {
+  to {filter:opacity(0.05);}
+}
+
+.slider{
+  margin-top: 50px;
+}
+
+.h1, .h2, .h3{
+  position: absolute;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  text-shadow:  1px 0 1px #000, 
+                0 1px 1px #000, 
+                -1px 0 1px #000, 
+                0 -1px 1px #000;
+}
+
+.h1{
+  top: 5%;
+}
+
+.h2{
+  top: 40%;
+}
+
+.h3{
+  top: 70%;
+}
+
+.p1, .p2, .p3{
+  position: absolute;
+  color: white;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  text-shadow:  1px 0 1px #000, 
+                0 1px 1px #000, 
+                -1px 0 1px #000, 
+                0 -1px 1px #000;
+}
+
+.p1{
+  top: 15%;
+}
+
+.p2{
+  top: 50%;
+}
+
+.p3{
+  top: 80%;
+}
+
+.p3 a{
+  text-decoration: underline;
+}
